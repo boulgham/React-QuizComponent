@@ -25,7 +25,7 @@ class QuizQuestion extends Component {
     return(
       <main>
           {(this.state.incorrectAnswer) ?
-            <p className="error">Sorry, that's not right /!\</p> :
+            <p className="error">/!\ Sorry, that's not right /!\</p> :
             <p>null</p>
           }
           <section>
